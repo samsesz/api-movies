@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 import Movie from "./models/Movies.js";
 import movieRoutes from "./routes/movieRoutes.js";
-import connectDB from "./config/db-connection.js";
+import connect from "./config/db-connection.js";
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
