@@ -1,4 +1,4 @@
-import movieService from "../services/movieService";
+import movieService from "../services/movieService.js";
 
 const getAllmovies = async (req, res) => {
   try {
